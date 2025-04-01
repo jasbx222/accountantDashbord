@@ -49,19 +49,19 @@ export default function SideMenu() {
           <SideMenuLink
             href={"/customer"}
             label={"ادارة العملاء "}
-            icon={<Shapes />}
+            icon={''}
           />
 
           <SideMenuLink
             href={"/request"}
             label={"التقارير المالية "}
-            icon={<GitPullRequest />}
+            icon={''}
           />
 
           <SideMenuLink
             href={"/customers"}
             label={"العملاء "}
-            icon={<Signpost />}
+            icon={''}
           />
 
       
