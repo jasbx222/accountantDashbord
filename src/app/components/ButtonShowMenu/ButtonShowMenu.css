@@ -1,0 +1,17 @@
+.btn {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px; 
+    z-index: 999;
+    
+}
+
+@media screen and (min-width:780px){
+   
+    .btn{
+        display: none;
+    }
+}
