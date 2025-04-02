@@ -17,12 +17,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <header>
-      <ButtonShowMenu/>
-      </header>
+    
+     
+   
       <body
         className={`${space_Grotesk.className}  antialiased`}
       >
+         <ButtonShowMenu/>
         {children}
       </body>
     </html>
