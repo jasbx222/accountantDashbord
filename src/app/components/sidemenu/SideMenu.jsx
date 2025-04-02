@@ -14,6 +14,10 @@ import {
   Signpost,
   User,
   CalendarCog,
+  HandCoins,
+  UsersRound,
+  BadgeDollarSign,
+  FolderKanban,
 } from "lucide-react";
 import "./SideMenu.css";
 import SideMenuLink from "./SideMenuLink";
@@ -49,19 +53,26 @@ export default function SideMenu() {
           <SideMenuLink
             href={"/customer"}
             label={"ادارة العملاء "}
-            icon={''}
+            icon={<FolderKanban />}
           />
 
           <SideMenuLink
-            href={"/request"}
+            href={"/report"}
             label={"التقارير المالية "}
-            icon={''}
+            icon={<BadgeDollarSign />}
           />
 
           <SideMenuLink
             href={"/customers"}
             label={"العملاء "}
-            icon={''}
+            icon={<UsersRound />}
+          />
+
+          <SideMenuLink
+            href={"/moneymanage"}
+            label={" المقبوضات والمصروفات "}
+      
+            icon={<HandCoins />}
           />
 
       
